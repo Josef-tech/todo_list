@@ -10,7 +10,7 @@ const getInitialInput = () => {
     const li = document.createElement("li");
     li.innerHTML = `
 		<input class="list_input" type="text" value="">
-		<img class="cancel" src="/img/delete.svg">
+		<img class="cancel" src="./img/delete.svg">
 	`;
     li.querySelector("img").addEventListener("click", () => {
         li.parentElement.removeChild(li);

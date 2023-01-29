@@ -101,6 +101,8 @@ li {
     background-image: url("./img/sortupdark.svg");
 }
 
+
+
 .list_input {
     width: 200px;
 }
@@ -128,6 +130,10 @@ li {
     cursor: pointer;
 }
 
+
+.cancel:hover {
+    background-image: url(./img/deletepurple.svg);
+}
 
 .newInput {
 
